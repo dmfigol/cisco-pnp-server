@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnp xmlns="urn:cisco:pnp" version="1.0" >
+  <request xmlns="urn:cisco:pnp:device-info">
+   <deviceInfo type="all"/>
+  </request>
+</pnp>

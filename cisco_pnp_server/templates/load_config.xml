@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnp xmlns="urn:cisco:pnp" version="1.0" udi="{{ udi }}">
+  <request correlator="{{ correlator_id }}" xmlns="urn:cisco:pnp:config-upgrade">
+    <config details="all">
+      <copy>
+        <source>
+          <location>http://192.168.122.1:8080/configs/{{ config_filename }}</location>
+        </source>
+      </copy>
+    </config>
+    <noReload/>
+  </request>
+</pnp>
